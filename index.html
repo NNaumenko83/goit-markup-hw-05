@@ -74,7 +74,7 @@
 				<div class="container">
 					<h1 class="section-hero-title title">Ефективні рішення для вашого бізнесу</h1>
 
-					<button type="button" class="section-hero-btn btn primary">Замовити послугу</button>
+					<button type="button" data-modal-open class="section-hero-btn btn primary">Замовити послугу</button>
 				</div>
 			</section>
 
@@ -147,14 +147,17 @@
 					<ul class="section-about-list list">
 						<li class="about-list-item">
 							<img src="./images/img-1.jpg" alt="Людина другує код сайта" width="370" height="294" />
+							<h2 class="about-list-title title">Десктопні додатки</h2>
 						</li>
 
 						<li class="about-list-item">
 							<img src="./images/img-2.jpg" alt="Розробка інтерфейсу для смартфонів" width="370" height="294" />
+							<h2 class="about-list-title title">Мобільні додатки</h2>
 						</li>
 
 						<li class="about-list-item">
 							<img src="./images/img-3.jpg" alt="Робота над вибором кольору на планшеті" width="370" height="294" />
+							<h2 class="about-list-title title">Дизайнерські рішення</h2>
 						</li>
 					</ul>
 				</div>
@@ -315,42 +318,42 @@
 					<h2 class="section-clients-title title">Постійні клієнти</h2>
 					<ul class="clients-list list">
 						<li class="clients-list-item">
-							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link"
+							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link link"
 								><svg class="client-icon icon" width="106" height="60">
 									<use href="./images/symbol-defs-new.svg#icon-Logo1_YaGo"></use></svg
 							></a>
 						</li>
 
 						<li class="clients-list-item">
-							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link"
+							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link link"
 								><svg class="client-icon icon" width="106" height="60">
 									<use href="./images/symbol-defs-new.svg#icon-Logo2_tagline_here"></use></svg
 							></a>
 						</li>
 
 						<li class="clients-list-item">
-							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link"
+							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link link"
 								><svg class="client-icon icon" width="106" height="60">
 									<use href="./images/symbol-defs-new.svg#icon-Logo3_COMPANY"></use></svg
 							></a>
 						</li>
 
 						<li class="clients-list-item">
-							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link"
+							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link link"
 								><svg class="client-icon icon" width="106" height="60">
 									<use href="./images/symbol-defs-new.svg#icon-Logo4_FosterPeters"></use></svg
 							></a>
 						</li>
 
 						<li class="clients-list-item">
-							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link"
+							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link link"
 								><svg class="client-icon icon" width="106" height="60">
 									<use href="./images/symbol-defs-new.svg#icon-Logo5_Brand"></use></svg
 							></a>
 						</li>
 
 						<li class="clients-list-item">
-							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link"
+							<a href="#" target="_blank" rel="noopener nofollow noreferrer" class="clients-list-link link"
 								><svg class="client-icon icon" width="106" height="60">
 									<use href="./images/symbol-defs-new.svg#icon-Logo6_TagLine"></use></svg
 							></a>
@@ -358,6 +361,18 @@
 					</ul>
 				</div>
 			</section>
+
+			<!-- ----------------МОДАЛЬНЕ ВІКНО----------------- -->
+
+			<div class="backdrop is-hidden" data-modal>
+				<div class="modal">
+					<p class="modal-text">
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio rerum veniam laudantium harum et
+						repellendus nesciunt blanditiis ab quod voluptate?
+					</p>
+					<button type="button" • data-modal-close class="modal-btn btn">Закрити</button>
+				</div>
+			</div>
 		</main>
 
 		<!-- -----------------ФУТЕР----------------- -->
@@ -424,5 +439,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
