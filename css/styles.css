@@ -306,7 +306,7 @@ button {
 	height: 120px;
 	margin: auto;
 
-	background: #f5f4fa;
+	background-color: #f5f4fa;
 	border-radius: 4px;
 
 	justify-content: center;
@@ -412,7 +412,7 @@ button {
 }
 
 .section-team {
-	background: var(--secondary-background-color);
+	background-color: var(--secondary-background-color);
 }
 
 .team-list {
@@ -421,7 +421,7 @@ button {
 
 .team-item {
 	width: 270px;
-	background: #ffffff;
+	background-color: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
@@ -585,7 +585,7 @@ button {
 
 	color: #ffffff;
 
-	background: rgba(255, 255, 255, 0.1);
+	background-color: rgba(255, 255, 255, 0.1);
 	border-radius: 50%;
 
 	transition-property: background-color;
@@ -595,7 +595,7 @@ button {
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-	background: #2196f3;
+	background-color: #2196f3;
 }
 
 /* ПОРТФОЛІО */
@@ -683,7 +683,7 @@ button {
 	width: calc((100% - 60px) / 3);
 	margin-right: 30px;
 
-	background: #ffffff;
+	background-color: #ffffff;
 }
 
 .project-list-item:nth-child(3n) {
@@ -732,8 +732,6 @@ button {
 	color: var(--third-text-color);
 
 	background-color: rgba(33, 150, 243, 0.9);
-
-	/* outline: 1px solid red; */
 
 	transform: translateY(100%);
 
@@ -794,7 +792,7 @@ button {
 	width: 528px;
 	height: 581px;
 
-	background: var(--main-background-color);
+	background-color: var(--main-background-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
 
