@@ -227,10 +227,10 @@ button {
 .nav-list-item .current::after {
 	position: absolute;
 	bottom: -1px;
-	left: 0;
+	left: -2px;
 	content: "";
 	display: block;
-	width: 100%;
+	width: calc(100% + 4px);
 	height: 4px;
 
 	background-color: var(--accent-color);
